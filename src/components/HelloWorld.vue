@@ -8,7 +8,7 @@ defineProps<{
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
-      This page is currently being worked on!
+      This page is currently heavily being worked on!
     </h3>
   </div>
 </template>

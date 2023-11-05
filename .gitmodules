@@ -1,0 +1,4 @@
+[submodule "tearaveler-blog"]
+	path = tearaveler-blog
+	url = https://github.com/tearaveler/tearaveler-blog.git
+	branch = gh-pages

@@ -1,6 +1,7 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div>
+    This page is going to contain a traveler's blog, travel information <p/>
+    on less usual destinations and much more.
   </div>
 </template>
 

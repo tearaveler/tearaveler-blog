@@ -1,12 +1,16 @@
 <script setup lang="ts">
-defineProps<{
-  msg: string
-}>()
+import { useDefaults } from 'vuetify'
+
+const _props = defineProps({
+  msg: String
+})
+const props = useDefaults(_props, 'HelloWorld')
+console.log(props.msg)
 </script>
 
 <template>
   <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
+    <h1 class="green">{{ props.msg }}</h1>
     <h3>
       This page is currently heavily being worked on!
     </h3>

@@ -5,18 +5,17 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-
     <div class="wrapper">
       <HelloWorld msg="Welcome!" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/datenschutz">Datenschutz</RouterLink>
       </nav>
     </div>
   </header>
-
-  <RouterView />
+  <RouterView />  
 </template>
 
 <style scoped>
@@ -38,7 +37,7 @@ nav {
 }
 
 nav a.router-link-exact-active {
-  color: var(--color-text);
+  color: #f2f7f7;
 }
 
 nav a.router-link-exact-active:hover {

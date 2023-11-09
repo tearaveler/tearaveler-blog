@@ -1,1 +1,0 @@
-import{_ as t,o,c as n,a as e,b as a}from"./index-8aa83b4d.js";const s={},c=a("p",null,null,-1);function r(_,l){return o(),n("div",null,[e(" This page is going to contain a traveler's blog, travel information "),c,e(" on less usual destinations and much more. ")])}const u=t(s,[["render",r]]);export{u as default};

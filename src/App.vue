@@ -1,6 +1,5 @@
 <template>
-  <RouterLink to="/home">home</RouterLink>
-  <RouterView />
+  <router-view />
 </template>
 
 <script lang="ts" setup>

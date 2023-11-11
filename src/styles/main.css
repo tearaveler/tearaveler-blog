@@ -1,0 +1,8 @@
+@import url('vuetify/styles');
+
+@font-face {
+    font-family: Roboto-New;
+    src: url('/fonts/Roboto/Roboto-Bold.ttf');
+}
+
+/* CSS OVERRIDES */

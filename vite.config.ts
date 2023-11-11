@@ -1,7 +1,7 @@
 // Plugins
 import vue from '@vitejs/plugin-vue'
 import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
-import ViteFonts from 'unplugin-fonts/vite'
+// import Unfonts from 'unplugin-fonts/vite'
 
 // Utilities
 import { defineConfig } from 'vite'
@@ -18,14 +18,6 @@ export default defineConfig({
       autoImport: true,
       styles: {
         configFile: 'src/styles/settings.scss',
-      },
-    }),
-    ViteFonts({
-      google: {
-        families: [{
-          name: 'Roboto',
-          styles: 'wght@100;300;400;500;700;900',
-        }],
       },
     }),
   ],

@@ -4,7 +4,7 @@
 
       <div class="text-body-2 font-weight-light mb-n1">Welcome to</div>
 
-      <h1 class="text-h2 font-weight-bold">tearaveler</h1>
+      <h1 class="text-h2 font-weight-bold">t(ea)raveler</h1>
       <br/>
       <h4>This page is currently heavily being worked on...</h4>
       <div class="py-14" />

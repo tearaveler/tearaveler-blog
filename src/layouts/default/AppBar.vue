@@ -1,9 +1,10 @@
 <template>
-  <v-app-bar flat>
+  <v-app-bar :elevation="2">
+    <v-app-bar-nav-icon/>
     <v-app-bar-title>
-      <v-icon icon="mdi-circle-slice-6" />
+      <v-icon icon="mdi-earth" />
 
-      Essentials Preset
+      t(ea)raveler
     </v-app-bar-title>
   </v-app-bar>
 </template>

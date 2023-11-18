@@ -16,6 +16,48 @@ const routes = [
       },
     ],
   },
+  {
+    path: '/destinations',
+    //component: () => import('@/layouts/default/Default.vue'),
+    children: [
+      {
+        path: '',
+        name: 'Destinations',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+         component: () => import(/* webpackChunkName: "home" */ '@/views/DestinationsPage.vue'),
+      },
+    ],
+  },
+  {
+    path: '/blog',
+    //component: () => import('@/layouts/default/Default.vue'),
+    children: [
+      {
+        path: '',
+        name: 'Blog',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        // component: () => import(/* webpackChunkName: "home" */ '@/views/Home.vue'),
+      },
+    ],
+  },
+  {
+    path: '/contact',
+    //component: () => import('@/layouts/default/Default.vue'),
+    children: [
+      {
+        path: '',
+        name: 'Contact',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        // component: () => import(/* webpackChunkName: "home" */ '@/views/Home.vue'),
+      },
+    ],
+  },
 ]
 
 const router = createRouter({
